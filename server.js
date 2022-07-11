@@ -8,7 +8,7 @@ async function main() {
     console.log("Microservices rock!");
     await sleep(5000);
     const favoriteFood = process.env.FAVORITE_FOOD;
-    console.log(`My favorite food is ${favoriteFood}`);
+    console.log(`test My favorite food is ${favoriteFood}`);
   }
 }
 
